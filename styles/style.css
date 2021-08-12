@@ -19,9 +19,9 @@ body {
 
     font-family: 'Titillium Web', sans-serif;
     background-image: url(../assets/parkbackground.jpg);
-    
+
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 main {
@@ -78,9 +78,6 @@ h2 {
     margin-right: 20px;
 }
 
-/* .main-logo {
-    animation: pulse 10s infinite ease-in-out;
-} */
 
 header img {
     height: var(--header-height);
@@ -108,9 +105,10 @@ p {
 
 
 #cat-image {
-   
+
     left: 15%;
 }
+
 #horse-image {
     right: 15%;
 }
@@ -133,10 +131,12 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
 .main-section {
     display: flex;
-    
+
 }
+
 @keyframes pulse {
     20% {
         transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);

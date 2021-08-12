@@ -1,4 +1,7 @@
 
+// grabbing everything I need from the dom below
+
+
 const horseEl = document.getElementById('horse-image');
 const dogEl = document.getElementById('dog-image');
 const catEl = document.getElementById('cat-image');
@@ -7,12 +10,15 @@ const dogSound = document.getElementById('dog-sound');
 const catSound = document.getElementById('cat-sound');
 const h1El = document.getElementById('animal-name');
 
-function makeSoundAndChangeH1(sound , animalName) {
-    sound.play();
-    h1El.textContent = animalName;
-    setTimeout(() => {
-  h1El.textContent = 'Animal Noises';
-}, 1500);
+
+// creating my magical function
+
+function makeSoundAndChangeH1(sound, animalName) {
+  sound.play();
+  h1El.textContent = animalName;
+  setTimeout(() => {
+    h1El.textContent = 'Animal Noises';
+  }, 1500);
 }
 
 // set event listeners 
@@ -20,7 +26,7 @@ function makeSoundAndChangeH1(sound , animalName) {
 horseEl.addEventListener('click', () => {
   makeSoundAndChangeH1(horseSound, 'horse'); // calling my function 
 });
-
+// on click the horseSound  will be played and the 'horse' string will be put into animalName
 dogEl.addEventListener('click', () => {
   makeSoundAndChangeH1(dogSound, 'dog');
 });
