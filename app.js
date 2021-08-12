@@ -30,14 +30,14 @@ catEl.addEventListener('click', () => {
 });
 document.addEventListener('keydown', (event) => {
   if (event.key === 'c') {
-    makeSoundAndChangeH1();
+    makeSoundAndChangeH1(catSound, 'cat');
   }
 
   if (event.key === 'h') {
-    makeSoundAndChangeH1();
+    makeSoundAndChangeH1(horseSound, 'horse');
   }
 
   if (event.key === 'd') {
-    makeSoundAndChangeH1();
+    makeSoundAndChangeH1(dogSound, 'dog');
   }
 });
