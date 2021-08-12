@@ -95,7 +95,7 @@ p {
     /* display: flex; */
     /* justify-content: center; */
     margin-top: 15%;
-    transition: 4ms;
+    transition: 800ms ease-in-out;
     position: absolute;
     top: 50px;
 }
