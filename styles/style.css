@@ -98,6 +98,7 @@ p {
     transition: 800ms ease-in-out;
     position: absolute;
     top: 50px;
+    border-radius: 15px;
 }
 
 .farm-animal:hover {

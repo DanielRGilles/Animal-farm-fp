@@ -9,8 +9,7 @@ const h1El = document.getElementById('animal-name');
 export function makeSoundAndChangeH1ForHorse() {
     horseSound.play();
     h1El.textContent = 'horse';
-    // no return value needed. We don't need to store anything in a variable to use later
-    // this is an IMPURE function. It has no arguments, not return value, and SIDE EFFECTS (mutations outside of the function)
+    
 }
 
 export function makeSoundAndChangeH1ForDog() {
